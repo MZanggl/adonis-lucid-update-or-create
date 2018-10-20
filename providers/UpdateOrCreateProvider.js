@@ -10,10 +10,6 @@ class UpdateOrCreateProvider extends ServiceProvider {
 
     this.app.alias('Adonis/Addons/UpdateOrCreate', 'Lucid/UpdateOrCreate')
   }
-
-  boot () {
-    require('../src/Patches/Model')
-  }
 }
 
 module.exports = UpdateOrCreateProvider
