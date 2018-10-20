@@ -1,0 +1,20 @@
+{
+  "name": "adonis-lucid-update-or-create",
+  "version": "1.0.0",
+  "description": "Implements Laravel's updateOrCreate method as a trait in AdonisJs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "updateOrCreate",
+    "adonis",
+    "lucid",
+    "laravel"
+  ],
+  "author": "Michael Zanggl",
+  "license": "MIT",
+  "devDependencies": {
+    "@adonisjs/fold": "^4.0.9"
+  }
+}
