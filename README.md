@@ -43,3 +43,5 @@ Rating.updateOrCreate(
   { rating: 5 }
 )
 ```
+
+> If you use transactions, you can pass `trx` as the third argument.
